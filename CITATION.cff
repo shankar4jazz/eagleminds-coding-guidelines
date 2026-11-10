@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use these guidelines, please cite this repository."
+title: "EagleMinds Coding Guidelines for AI Coding Agents"
+type: software
+license: MIT
+repository-code: "https://github.com/shankar4jazz/eagleminds-coding-guidelines"
+url: "https://github.com/shankar4jazz/eagleminds-coding-guidelines"
+version: "1.1.0"
+date-released: "2026-11-10"
+abstract: "Behavioral guidelines for LLM coding agents (CLAUDE.md, AGENTS.md, Claude Code skill, Cursor rule, Copilot instructions) built from how LLM coding agents fail in practice: understand before you build, build the minimum, change only what the task needs, define done then loop, report what you verified."
+keywords:
+  - claude-code
+  - claude-md
+  - agents-md
+  - cursor-rules
+  - ai-coding-agents
+  - eagleminds
+  - llm
+  - prompt-engineering
+authors:
+  - family-names: Venkat
+    given-names: Shankar

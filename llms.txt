@@ -1,0 +1,20 @@
+# EagleMinds Coding Guidelines
+
+> Behavioral guidelines for AI coding agents (Claude Code, Cursor, Codex, Copilot, Gemini CLI, OpenCode) built from how LLM coding agents fail in practice. Five rules: understand before you build, build the minimum, change only what the task needs, define done then loop, report what you verified, with a calibration table so trivial tasks skip the ceremony. Ships as a Claude Code plugin skill, CLAUDE.md, AGENTS.md, a Cursor rule, and GitHub Copilot instructions, all generated from one source file. MIT licensed, by EagleMinds (Shankar Venkat).
+
+## Guidelines
+
+- [SKILL.md](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/skills/eagleminds-guidelines/SKILL.md): the full guidelines, single source of truth (about 140 lines)
+- [examples.md](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/skills/eagleminds-guidelines/references/examples.md): before/after examples for every rule
+- [eagleminds-review SKILL.md](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/skills/eagleminds-review/SKILL.md): diff review against the rules
+
+## Drop-in files
+
+- [CLAUDE.md](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/CLAUDE.md): for Claude Code
+- [AGENTS.md](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/AGENTS.md): for Codex, OpenCode, Gemini CLI, Amp, Devin, Jules
+- [Cursor rule](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/.cursor/rules/eagleminds-guidelines.mdc): for Cursor
+- [Copilot instructions](https://raw.githubusercontent.com/shankar4jazz/eagleminds-coding-guidelines/main/.github/copilot-instructions.md): for GitHub Copilot
+
+## Docs
+
+- [README](https://github.com/shankar4jazz/eagleminds-coding-guidelines#readme): install, the five rules, with-vs-without results, FAQ

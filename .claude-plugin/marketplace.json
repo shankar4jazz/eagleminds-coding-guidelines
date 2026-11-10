@@ -1,0 +1,31 @@
+{
+  "name": "eagleminds-coding-guidelines",
+  "owner": {
+    "name": "Shankar Venkat",
+    "url": "https://github.com/shankar4jazz"
+  },
+  "metadata": {
+    "description": "EagleMinds coding guidelines for AI coding agents, packaged as a Claude Code plugin",
+    "version": "1.1.0"
+  },
+  "plugins": [
+    {
+      "name": "eagleminds-guidelines",
+      "source": "./",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution, Report Honestly. Plus /eagleminds-review.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Shankar Venkat"
+      },
+      "keywords": [
+        "guidelines",
+        "best-practices",
+        "coding",
+        "eagleminds",
+        "claude-md",
+        "agents-md"
+      ],
+      "category": "workflow"
+    }
+  ]
+}

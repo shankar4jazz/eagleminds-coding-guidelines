@@ -1,0 +1,10 @@
+title: EagleMinds Coding Guidelines for AI Coding Agents
+description: CLAUDE.md, AGENTS.md, Claude Code skill, Cursor rule and Copilot instructions that stop LLM coding agents from assuming, overbuilding, touching code they shouldn't, and claiming done without verification.
+url: https://shankar4jazz.github.io
+baseurl: /eagleminds-coding-guidelines
+lang: en
+author: EagleMinds
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

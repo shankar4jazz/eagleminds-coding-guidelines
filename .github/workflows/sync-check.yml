@@ -1,0 +1,19 @@
+name: sync-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generated copies match SKILL.md
+        run: python scripts/sync_guidelines.py --check
+      - name: Plugin manifests are valid JSON
+        run: python -c "import json; json.load(open('.claude-plugin/plugin.json')); json.load(open('.claude-plugin/marketplace.json'))"
